@@ -5,7 +5,7 @@ import click
 
 init()
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 @click.group()
 def main():
