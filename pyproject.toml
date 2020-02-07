@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "stail"
+version = "0.1.0"
+description = "Step Function tailing CLI tool"
+authors = ["Iman Kamyabi <contact@imankamyabi.com>"]
+
+license = "MIT"
+readme = "README.md"
+homepage = ""
+repository = "https://github.com/imankamyabi/stail"
+keywords = ["step-function", "aws", "cli", "tail"]
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pyfiglet = "^0.8.post1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+stail = 'stail:main'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
