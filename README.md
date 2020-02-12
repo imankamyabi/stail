@@ -21,6 +21,7 @@ stail run --arn [state machine arn] --input [input]
 ```
 #### Options:
   --arn  State machine ARN
+   
   --input Input JSON to the state machine
 
 ##### Example:
