@@ -26,7 +26,7 @@ stail run --arn arn:aws:states:<region>:955883056721:stateMachine:<name> --input
 ```
 
 ##### Console Screenshot
-![Screenshot](https://github.com/imankamyabi/stail/blob/master/images/console-screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/imankamyabi/stail/master/images/console-screenshot.png)
 
 ### version
 Displays the version.
