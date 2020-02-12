@@ -19,7 +19,7 @@ Log file is stored at stail_logs/[execution name (UUID)].log
 ```shell
 stail run --arn [state machine arn] --input [input]
 ```
-####Options:
+#### Options:
   --arn  State machine ARN
   --input Input JSON to the state machine
 
