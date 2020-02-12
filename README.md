@@ -31,7 +31,7 @@ stail run --arn [state machine arn] --input [input]
 
 ##### Example:
 ```shell
-stail run --arn arn:aws:states:<region>:955883056721:stateMachine:<name> --input "{\"param\":\"hello\"}"
+stail run --arn arn:aws:states:<region>:<account_number>:stateMachine:<name> --input "{\"param\":\"hello\"}"
 ```
 
 ### Version
