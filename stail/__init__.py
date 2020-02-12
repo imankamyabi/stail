@@ -16,7 +16,7 @@ init(autoreset=True)
 
 aws_client = boto3.client('stepfunctions')
 
-__version__ = '0.1.9'
+__version__ = '0.1.10'
 
 @click.group()
 def main():
