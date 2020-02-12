@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "stail"
-version = "0.1.4"
+version = "0.1.5"
 description = "CLI Tool to run and tail a step function synchronously."
 authors = ["Iman Kamyabi <contact@imankamyabi.com>"]
 
