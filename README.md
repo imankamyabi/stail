@@ -1,5 +1,8 @@
 # Stail
-CLI Tool to run and tail a step function synchronously.
+CLI Tool to run and tail a step function synchronously and persist event logs for the state machine execution on disk.
+
+![Screenshot](https://raw.githubusercontent.com/imankamyabi/stail/master/images/console-screenshot.png)
+
 
 ## Installation:
 ```shell
@@ -24,9 +27,6 @@ stail run --arn [state machine arn] --input [input]
 ```shell
 stail run --arn arn:aws:states:<region>:955883056721:stateMachine:<name> --input "{\"param\":\"hello\"}"
 ```
-
-##### Console Screenshot
-![Screenshot](https://raw.githubusercontent.com/imankamyabi/stail/master/images/console-screenshot.png)
 
 ### version
 Displays the version.
