@@ -1,33 +1,39 @@
-# STail
+# Stail
 CLI Tool to run and tail a step function synchronously.
 
-Tail feature coming soon!
-
 ## Installation:
-```bash
+```shell
 pip install stail
 ```
 
 ## Usage
 
 ### run
-Runs a step function synchronously.
-```bash
+Starts a step function execution synchronously, tails the event history to the console and create a log file with all the events for the execution.
+
+Log file is stored at stail_logs/[execution name (UUID)].log 
+
+```shell
 stail run --arn [state machine arn] --input [input]
 ```
 ####Options:
-  --help  Show this message and exit.
+  --arn  State machine ARN
+  --input Input JSON to the state machine
 
 ##### Example:
-```bash
+```shell
 stail run --arn arn:aws:states:<region>:955883056721:stateMachine:<name> --input "{\"param\":\"hello\"}"
 ```
 
+##### Console Screenshot
+![Screenshot][images/console-screenshot.png]
+
 ### version
 Displays the version.
-```bash
+```shell
 stail version
 ```
 
 Author: Iman Kamyabi
+ 
 Feedback: contact@imankamyabi.com
