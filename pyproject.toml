@@ -8,7 +8,7 @@ license = "MIT"
 readme = "README.md"
 homepage = ""
 repository = "https://github.com/imankamyabi/stail"
-keywords = ["step-function", "aws", "cli", "tail"]
+keywords = ["step-function", "aws", "cli", "tail", "state machine]
 classifiers = [
     "Environment :: Console",
     "Operating System :: OS Independent",
